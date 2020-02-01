@@ -17,7 +17,7 @@
     <link href="/Bootstrap/css/bootstrap.min.css" rel="stylesheet" /> <!-- Referencia a Bootstrap css -->
 
     <asp:ContentPlaceHolder ID="head" runat="server">
-        <!-- [[ 1 ]]-->
+        <!-- [[ 1 ]]]]]]]]]]]]]]]]]]]]]]]-->
 
 
     </asp:ContentPlaceHolder>
