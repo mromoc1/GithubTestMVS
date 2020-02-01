@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Pagina_Principal.master.cs" Inherits="Chatbot.Pagina_Principal" %>
+
+<!DOCTYPE html>
+<!-- "Web forms con pagina maestra" Lo que construimos aqui es una plantilla para la pagina principal-->
+<!-- "Formulario Web Form" pagina web en .net basica que no se basa en una plantilla -->
+<!-- "Formulario web con pagina maestra" utiliza una plantilla -->
+<!-- Lo que construimos aqui es una plantilla para la pagina principal-->
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>
+    
+    </title>
+    
+    <script src="/JS/jquery-3.4.1.min.js"></script>   <!-- Añadimos la referencia de JQuery -->
+    <script src="/Bootstrap/js/bootstrap.min.js"></script>  <!-- Referencia a Bootstrap js -->
+    <link href="/Bootstrap/css/bootstrap.min.css" rel="stylesheet" /> <!-- Referencia a Bootstrap css -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <!-- [[ 1 ]]-->
+
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <!-- [[ 2 ]]-->
+
+
+
+                <!-- lo que vaya aqui, irian las subpaginas que hereden la plantilla principal
+                    Si añadimos otra pagina-->
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
