@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatbot.Presentacion", "Chatbot\Chatbot.Presentacion.csproj", "{F5AB8734-F809-4F15-8DA9-1E8D1A8761FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chatbot.Infraestructura", "Chatbot.Infraestructura\Chatbot.Infraestructura.csproj", "{E57DA4A5-B733-4FDA-8F7F-742D664B0203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chatbot.Infraestructura", "Chatbot.Infraestructura\Chatbot.Infraestructura.csproj", "{E57DA4A5-B733-4FDA-8F7F-742D664B0203}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Archivo", "Archivo", "{C2649EDA-A5A6-4CE1-ADA0-0C7B8B56BDD8}"
+	ProjectSection(SolutionItems) = preProject
+		Informaicon.txt = Informaicon.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

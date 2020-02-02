@@ -1,0 +1,4 @@
+En el presente proyecto creamos 3 capas, donde 2 son visibles, la 3 es la de base de datos que esta dentro de infraestructura.
+
+Chatbot.presentacion seria la capa visual de nuestro proyecto
+Chatbot. infraestructura vendria siendo el backend
